@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT college (name,address,faculty+>
+<!ELEMENT college (name,address,faculty+)>
 <!ELEMENT faculty (name,num,sub)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT num (#PCDATA)>
