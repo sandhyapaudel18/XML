@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE college SYSTEM "./first.dtd">
+<college>
+    <name>BUTWAL KALIKA CAMPUS</name>
+    <address>Butwal</address>
+
+
+    <s:faculty xmlns:s="https://www.example1.com">
+        <s:name>BCA</s:name>
+        <s:num>100</s:num>
+        <s:sub>five</s:sub>
+    </s:faculty>
+
+    <f:faculty xmlns:f="https://www.example2.com"> 
+        <f:name>BBS</f:name>
+        <f:num>300</f:num>
+        <f:sub>six</f:sub>
+    </f:faculty>
+
+    <g:faculty xmlns:g="https://www.example3.com">
+        <g:name>BSW</g:name>
+        <g:num>50</g:num>
+        <g:sub>seven</g:sub>
+    </g:faculty>
+
+
+</college>
