@@ -3,14 +3,35 @@
     <xs:element name="college">
         <xs:complexType>
             <xs:sequence>
-                
+
                 <xs:element name="name" type="xs:string"></xs:element>
-
-                <xs:element name="num" type="xs:integer"></xs:element>
-
-                <xs:element name="sub" type="xs:integer"></xs:element>
-
                 <xs:element name="address" type="xs:string"></xs:element>
+
+
+                <xs:element name="faculty">
+                    <xs:sequence>
+
+                        <xs:element name="num">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:int">
+                                    <xs:minInclusive value="0" />
+                                    <xs:maxInclusive value="100" />
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="name">
+                            <xs:simpleTYpe>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="[a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]"/>
+
+                            
+                                </xs:restriction>
+                            </xs:simpleTYpe>
+                        </xs:element>
+                        <xs:element name="sub" type="xs:integer"></xs:element>
+                    </xs:sequence>
+                </xs:element>
+
 
             </xs:sequence>
         </xs:complexType>
