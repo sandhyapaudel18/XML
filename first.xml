@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <!DOCTYPE college SYSTEM "./first.dtd"> -->
 
-<college xmlns:xsi="https://www.w3.org.com"
-xmln>
+<college xmlns="http://www.example01.org/schema/" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemalocation="http://www.example.org/schema/ ead3.xsd">
+
     
     <name>BUTWAL KALIKA CAMPUS</name>
     <address>Butwal</address>
