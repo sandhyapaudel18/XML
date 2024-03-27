@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:Schema xmlns:xs="https://www.example.com">
-    <xs:element name="faculty">
+    <xs:element name="college">
         <xs:complexType>
             <xs:sequence>
                 
@@ -8,10 +8,10 @@
 
                 <xs:element name="num" type="xs:integer"></xs:element>
 
-                <xs:element name="sub"
-                    type="xs:string"></xs:element>
+                <xs:element name="sub" type="xs:integer"></xs:element>
 
-
+                <xs:element name="address" type="xs:string"></xs:element>
+                
             </xs:sequence>
         </xs:complexType>
     </xs:element>
