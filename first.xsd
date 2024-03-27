@@ -1,41 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:Schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="college">
+
+
         <xs:complexType>
             <xs:sequence>
-
                 <xs:element name="name" type="xs:string"></xs:element>
                 <xs:element name="address" type="xs:string"></xs:element>
-
-
-                <xs:element name="faculty">
-                    <xs:sequence>
-
-                        <xs:element name="num">
-                            <xs:simpleType>
-                                <xs:restriction base="xs:int">
-                                    <xs:minInclusive value="0" />
-                                    <xs:maxInclusive value="100" />
-                                </xs:restriction>
-                            </xs:simpleType>
+                <xs:element name="faculty" type="facultyType"></xs:element>
+                   </xs:sequence>
+                        </xs:complexType>
                         </xs:element>
-                        <xs:element name="name">
-                            <xs:simpleTYpe>
+                    
+
+                        
+                            <xs:complexType name="facultyType">
+                                <xs:sequence>
+                                <xs:element name="name" type="nameType"></xs:element>
+                                 <xs:element name="num" type="numType"></xs:element>
+                                 <xs:element name="sub" type="subType"></xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        
+
+                        <xs:simpleType name="nameType">
+                      
                                 <xs:restriction base="xs:string">
                                     <xs:pattern value="[a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]"/>
-
-                            
+                                    <xs:minLength value="5"/>
+                                    <xs:maxLength value="20"/>
                                 </xs:restriction>
-                            </xs:simpleTYpe>
-                        </xs:element>
-                        <xs:element name="sub" type="xs:integer"></xs:element>
-                    </xs:sequence>
-                </xs:element>
+                        
+                            </xs:simpleType>
+                       
 
+                            <xs:simpleType name="numType">
+                            
+                                <xs:restriction base="xs:integer">
+                                    <xs:minInclusive value="1"/>
+                                    <xs:maxInclusive value="79"/>
+                                
+                                </xs:restriction>
+                                 
+                            </xs:simpleType>
+                            
+                            <xs:simpleType name="subType">
+                           
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="[a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]"/>
+                                    <xs:minLength value="10"/>
+                                    <xs:maxLength value="30"/>
+                                </xs:restriction>
+                        
+                            </xs:simpleType>
+                            
 
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-
-
-</xs:Schema>
+</xs:schema>

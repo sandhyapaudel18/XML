@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- <!DOCTYPE college SYSTEM "./first.dtd"> -->
+<college>
+<college xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.college.com/xml first.xsd"/>
 
-<college xmlns="http://www.example01.org/schema/" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemalocation="http://www.example.org/schema/ ead3.xsd">
+
 
     
     <name>BUTWAL KALIKA CAMPUS</name>
