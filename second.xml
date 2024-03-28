@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<college>
+<college xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.college.com/xml first.xsd"/>
+
+
+
+    
+    <name>BUTWAL KALIKA CAMPUS</name>
+    <address>Butwal</address>
+
+
+    <faculty >
+        <name>BCA</name>
+        <num>100</num>
+        <sub>five</sub>
+    </faculty>
+
+<department>
+<name>Exam</name>
+<role>Manage Exams</role>
+</department>
+
+<teachers>
+<name>Vikash Malhotra</name>
+<id>467</id>
+<email>vikash123@gmail.com</email>
+<password>123@Wer</password>
+</teachers>
+
+
+</college>
