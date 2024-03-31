@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="second.xsl"?>
+<college>
+    
+    <faculty>
+        <name>Humanities
+            <sub-name>
+                  BCA
+            </sub-name>
+        </name>
+        <sub>4
+            <sub-sub></sub-sub>
+        </sub>
+        <id>123</id>
+    </faculty>
+
+
+</college>
