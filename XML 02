@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="second.xsl"?>
+<human>
+    <person>
+    <name>Sandhya Paudel</name>
+    <age>19</age>
+    <address>
+       sunwal
+    </address>
+    <id>234</id>
+    <faculty>BCA</faculty>
+    <college>BKC</college>
+    <semester>3rd</semester>
+    <hobby>Coding</hobby>
+
+
+</person>
+<person>
+    <name>Ayush Pokhrel</name>
+    <age>21</age>
+    <address>
+      sunwal
+    </address>
+    <id>234</id>
+    <faculty>BCA</faculty>
+    <college>BMC</college>
+    <semester>8th</semester>
+    <hobby>Designing</hobby>
+</person>
+</human>
